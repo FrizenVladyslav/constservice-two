@@ -1,0 +1,697 @@
+@import "bourbon"
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	.header
+		.header-nav
+			ul
+				padding-left: 0
+				li
+					margin: 9px 
+					&:first-child
+						margin-left: 0
+					&:last-child
+						margin-left: 0
+		.header-reg 
+			width: 14%
+			.header-number
+				min-width: 100%
+				.header-button
+					width: 100%
+					margin: 0
+				.head-number
+					font-size: 14px
+	
+	.header-banner
+		.col-sm-12
+			.search-page
+				width: 40%
+				input
+					margin-left: 16%
+				.fa
+					left: 68px
+	
+	.cs-main-header 
+		height: 357px
+		.wms-btn
+			margin-top: 40px
+
+	.wms-p
+		font-size: 22px
+
+	.wms-target-block-text
+		font-size: 17px
+
+	.task-content
+		ul
+			li
+				font-size: 14px
+				&::before
+					width: 20px
+					height: 20px
+	.cs-take-items
+		width: 80%
+	.task-image
+		width: 70%
+		img
+			width: 100%
+			height: auto
+	
+	.wms-vs-block
+		ul
+			li
+				width: 390px
+
+	.form-questions
+		font-size: 14px
+		.icon-tel2
+			line-height: 27px
+		#questions-number
+			padding-left: 47px
+		.form-group
+			span
+				padding-right: 5px
+	
+		
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	.header
+		.header-top
+			.header-logo
+				width: 100px
+				.header-log-image
+					width: 100%
+					img
+						max-width: 100%
+						height: auto
+			.header-nav
+				ul
+					padding-left: 0
+					li
+						margin: 9px 
+						font-size: 13px
+						&:first-child
+							margin-left: 0
+						&:last-child
+							margin-left: 0
+			.header-reg 
+				width: 13%
+			.header-number
+				min-width: 100%
+				.header-button
+					width: 100%
+					margin: 0
+					font-size: 12px
+					margin-top: 3px
+				.head-number
+					padding-top: 10px
+					font-size: 10px
+		.header-banner
+			.col-sm-12
+				.search-page
+					width: 60%
+					input
+						margin-left: 10%
+						width: 90%
+						padding-left: 50px
+					.fa
+						left: 55px
+	.cs-main-header
+		height: 327px
+		&-massege
+			height: 170px
+			h1
+				margin-bottom: 10px
+			p
+				margin-top: 15px
+				font-size: 16px
+	.wms-btn
+		font-size: 15px
+	.cs-main-target
+		height: 300px
+		margin-top: 27px
+	.wms-target-block-icon
+		margin-bottom: 0
+	.wms-target-block-text
+		font-size: 14px
+		line-height: 16px
+	
+	.cs-take-items
+		width: 100%
+	.cs-take-item
+		width: 100%
+		font-size: 16px
+
+	.task-content
+		ul
+			margin-top: 5px
+			padding-bottom: 0
+			padding-left: 25px
+			li
+				font-size: 12px
+				padding-left: 10px
+				&::before
+					top: 5px
+					width: 12px
+					height: 12px	
+
+	.wms-vs-block
+		font-size: 20px
+		ul
+			li
+				width: 290px
+				font-size: 14px
+		&:last-child
+			padding-left: 70px
+	
+	.vs-money
+		left: 33%
+	.p-competently
+		font-size: 19px
+
+	.form-questions
+		textarea
+			height: 110px
+		.form-group
+			input
+				width: 47%
+	.h3-questions
+		font-size: 25px
+	.h4-questions
+		font-size: 20px
+	section.footer
+		font-size: 11px
+		.footer-content
+			.footer-numbers
+				.numbers-block
+					p
+						font-size: 11px
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	.header
+		position: relative
+		.header-top
+			.header-logo
+				width: 190px
+				.header-log-image
+					width: 100%
+					img
+						max-width: 100%
+						height: auto
+			.header-nav
+				
+				z-index: 20
+				margin: 0
+				position: absolute
+				right: 2%
+
+				ul
+					display: none
+					margin: 0
+					width: 300px
+					height: 220px	
+					background-color: rgba(#4C4C4C, .9)
+					padding-left: 0
+					border-radius: 10px	
+					li
+						margin: 4px 
+						text-align: center
+
+						
+
+						&:first-child
+							padding-top: 19px
+						&:nth-child(7), &:last-child
+							display: none
+						&:nth-child(6)
+							margin-bottom: 15px
+						a
+							color: #fff
+							font-size: 16px
+							&:hover
+								color: $accent
+				.active-nav
+					display: block
+			.header-reg 
+				margin-top: 20px
+				width: 55%
+				.header-number
+					display: flex
+					flex-direction: row
+					justify-content: space-around
+					align-items: center
+					margin-top: -5px
+					.head-number
+						padding: 0
+						font-size: 15px
+					.header-button
+						width: 35%
+						font-size: 15px
+						margin-top: 10px
+		.header-banner
+			.container
+				width: 90% 
+				.row
+					.col-sm-12
+						.active-page-text
+							h1
+								font-size: 30px
+								line-height: 70px
+						.search-page
+							width: 60%
+							input
+								margin-left: 12%
+						
+	.hamburger
+		display: block
+		position: absolute
+		right: -20px
+		top: -1px
+		outline: none
+
+	.wms-h1
+		font-size: 30px
+	.cs-main-header
+		height: 300px
+	.cs-main-header-massege
+		opacity: .8
+		padding-top: 18px
+		height: 150px
+	
+		.wms-p
+			padding: 10px
+			padding-top: 0
+			font-size: 15px
+			margin-top: 0px
+
+	.wms-target-blocks
+		flex-direction: column
+	.cs-main-target
+		height: auto
+	.wms-target-block
+		height: auto
+		padding-bottom: 40px
+	.wms-target-block:first-child, .wms-target-block:last-child
+		max-width: 100%
+	
+	.cs-main-task
+		flex-direction: column
+		overflow: hidden
+		.task-content
+			order: 2
+			width: 100%
+			margin: 30px 0
+			ul
+				li
+					margin: 8px auto
+					width: 445px
+					font-size: 15px
+					&:before
+						width: 20px
+						height: 20px
+						top: 0
+						left: -20px
+		.task-image
+			order: 1
+			width: 100%
+			max-width: 570px
+			margin: 0 auto
+
+	.cs-main-take
+		padding-bottom: 50px
+
+	.cs-take-items
+		width: 80%
+		float: left
+		display: flex
+		flex-direction: column
+		justify-content: space-around
+	.cs-take-item
+		width: 100%
+		font-size: 14px
+		display: flex
+		flex-direction: column
+		justify-content: flex-start
+	.cs-main-vs
+		overflow: hidden
+		height: 800px
+	.wms-vs-blocks
+		max-width: 100%
+	.wms-vs-block
+		font-size: 15px
+
+		&:last-child
+			padding-left: 20px
+		&:first-child
+			padding-right: 20px
+			padding-left: 3.5%
+		ul
+			li
+				width: 100%
+				height: 30px
+				font-size: 10px
+				line-height: 11px
+				margin: 0
+				margin-top: 10px
+		.vs-left
+			li:after
+				content: ' '
+				position: absolute
+				display: block
+				left: 100%
+				top: 0
+				+arr(15, 30, #fff, r)
+		.vs-right
+			li:after
+				content: ' '
+				position: absolute
+				display: block
+				right: 100%
+				top: 0
+				+arr(15, 30, #fff, l)
+
+	.window-vs
+		
+		width: 496px
+		right: 0
+		height: auto
+
+	.vs-money
+		margin-top: 0
+	
+	.cs-main-free
+		padding-top: 100px
+		height: 400px
+	.free-popup
+		height: 200px
+		width: 85%
+		margin: 0 auto
+		h1
+			font-size: 25px
+		p
+			font-size: 20px
+	
+		.form-questions
+			.form-group
+				flex-direction: column
+				input
+					width: 70%
+
+					&:last-child
+						margin-top: 15px
+				textarea
+					height: 100px
+	.h3-questions
+		font-size: 20px
+	.h4-questions
+		font-size: 16px
+	input[type=checkbox]
+		margin-left: 0
+		margin-right: 10px
+		float: left
+		width: 100%
+		
+	.cs-main-comments
+		.form-questions
+			label
+				&::after
+					left: -1px
+					top: 8	
+	
+	.p-competently
+		font-size: 16px
+		line-height: 25px
+
+	section.footer
+		.footer-content
+			.footer-numbers
+				flex: 1
+				margin-bottom: 24px
+				.icon-tel
+					display: none
+				.numbers-block
+					width: 100%
+					p
+						font-size: 9px
+						width: 100%
+						text-align: center
+			.footer-soc
+				padding: 0
+				padding-top: 13px
+				ul
+					padding-left: 17px
+					font-size: 20px
+			.footer-map
+				margin-bottom: 14px
+				letter-spacing: 1px
+				font-size: 12px
+				padding-left: 0
+				align-items: center
+				.map-info
+					.icon-map
+						font-size: 25px	
+
+@media screen and (orientation: landscape)
+	@media only screen and (max-width : 769px)
+		.cs-take-items
+			width: 50%
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	.header
+		.header-top
+			.header-logo
+				padding-top: 55px
+				width: 100px
+			.header-reg
+				width: 60%
+				.header-number
+					margin-top: 0
+					.head-number
+						margin-top: 11px
+						font-size: 10px
+					.header-button
+						font-size: 10px
+						width: 45%
+						padding-top: 5px
+						padding-bottom: 5px
+		.header-banner
+			padding: 20px
+			.container
+				.row
+					.col-sm-12
+						display: block
+						.active-page-text
+							display: flex
+							width: 100%
+							p
+								display: none
+								width: 100%
+								text-align: center
+								height: 20px
+								margin-top: 3px
+							h1
+								display: none
+						.search-page
+							width: 100%
+							margin-top: 20px
+							input
+								width: 100%
+								margin-left: 0
+								margin-top: 0
+							.fa
+								left: 15px
+								top: 10px
+	.hamburger
+		right: -15px	
+	
+	.cs-main-header
+		height: 280px
+	.wms-h1
+		font-size: 24px
+		margin-bottom: 0
+	.wms-h2
+		font-size: 20px
+	.wms-btn
+		font-size: 14px
+		padding: 10px 30px
+	
+	.cs-main-header-massege
+		padding-top: 7px
+		.wms-h1
+			font-size: 24px
+			margin-bottom: 0
+		.wms-p
+			font-size: 14px
+	
+	.cs-main-target
+		padding-bottom: 30px
+		padding-top: 10px
+		p
+			font-size: 15px
+	
+	.wms-h2
+		font-size: 15px
+
+	.cs-main-tasks
+		margin-bottom: 10px
+
+
+		overflow: hidden
+		.task-content
+			ul
+				padding-left: 23px
+				li
+					font-size: 13px
+					width: 290px
+					padding-left: 2px
+					&:before
+						width: 13px
+						height: 13px
+						top: 5px
+	
+	.cs-main-take
+		.cs-take-section
+			height: auto
+	.cs-take-items
+		width: 100%
+
+	.window-vs
+		width: 100%
+		right: 0
+		left: auto
+		margin-right: -20px
+	.local-wms
+		display: none
+	.simple-wms
+		width: 100%
+
+	.wms-vs-block
+		p
+			height: 24px
+		.vs-money
+			width: 100%
+			left: 0
+			padding-top: 10px
+		.vs-left
+		&:last-child, &:first-child
+			padding: 0
+		ul
+			li
+				height: 40px
+				background: none
+				box-shadow: none
+		.vs-left
+			li:after
+				display: none
+		.vs-right
+			li:after
+				display: none
+
+	.cs-main-free
+		padding-bottom: 50px
+		padding-top: 50px
+		height: 250px
+
+	.form-questions
+		font-size: 12px
+	.free-popup
+		height: 150px
+		h1
+			font-size: 20px
+		p
+			font-size: 14px
+		.wms-btn 
+			font-size: 12px
+			margin-top: 20px
+		.form-questions
+			textarea
+				height: 80px
+			.form-group
+				input
+					width: 100%
+
+	.h3-questions
+		font-size: 16px
+		padding-top: 10px
+	.h4-questions
+		font-size: 13px
+
+	.wms-comment
+		font-size: 13px
+		line-height: 20px
+	.cs-main-comments 
+		.form-questions
+			label
+				font-size: 12px
+
+	section.footer
+		.footer-content
+			display: flex
+			flex-direction: column
+			.footer-map
+				display: none
+			.footer-soc
+				font-size: 13px
+				white-space: nowrap
+			.footer-numbers
+				.numbers-block
+					padding-top: 10px
+					p
+						font-size: 11px
+	.cs-project
+		p
+			font-size: 15px
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	.cs-main-tasks
+		.task-content
+			ul
+				li
+					width: 200px
+	.cs-main-comments
+		.form-questions
+			.wms-btn
+				padding: 7px 14px
+			.form-group
+				flex-direction: column
+				input
+					width: 100%
+					&:nth-child(2)
+						margin-top: 10px	
+	.cs-main-header-massege
+		height: 200px
+				
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+
